@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to right, aqua , skyblue);
+}
+.person{
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    font-size: x-large;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    background-color: white;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.person-details{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+.add-user{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.edit-user{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.info{
+    margin: 0px;
+    padding: 0px;
+}
+.not-found-image{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.not-found{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.user-details{
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    font-size: x-large;
+    height: auto;
+    max-width: 350px;
+    margin: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.back-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
